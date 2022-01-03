@@ -1,8 +1,8 @@
-package com.yzp.design.Duck.model;
+package com.yzp.design.Duck_model.model;
 
 
-import com.yzp.design.Duck.model.interfaces.FlyBehavior;
-import com.yzp.design.Duck.model.interfaces.QuackBehavior;
+import com.yzp.design.Duck_model.interfaces.FlyBehavior;
+import com.yzp.design.Duck_model.interfaces.QuackBehavior;
 
 public  abstract class Duck {
 

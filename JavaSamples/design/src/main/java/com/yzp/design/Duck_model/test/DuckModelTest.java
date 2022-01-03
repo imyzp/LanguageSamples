@@ -1,9 +1,12 @@
-package com.yzp.design.Duck.model;
+package com.yzp.design.Duck_model.test;
 
 
-import com.yzp.design.Duck.model.services.FlyRocketPowered;
+import com.yzp.design.Duck_model.model.Duck;
+import com.yzp.design.Duck_model.model.MallardDuck;
+import com.yzp.design.Duck_model.model.ModelDuck;
+import com.yzp.design.Duck_model.services.FlyRocketPowered;
 
-public class MiniDuckSimulator {
+public class DuckModelTest {
     public static void main(String[] args) {
         Duck mallard=new MallardDuck();
         mallard.performQuack();

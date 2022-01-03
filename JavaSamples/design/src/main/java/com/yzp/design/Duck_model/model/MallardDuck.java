@@ -1,9 +1,15 @@
-package com.yzp.design.Duck.model;
+package com.yzp.design.Duck_model.model;
 
 
-import com.yzp.design.Duck.model.services.FlyWithWings;
-import com.yzp.design.Duck.model.services.Quack;
+import com.yzp.design.Duck_model.model.Duck;
+import com.yzp.design.Duck_model.services.FlyWithWings;
+import com.yzp.design.Duck_model.services.Quack;
 
+/**
+ * 绿头鸭
+ * FlyWithWings
+ * Quack
+ */
 public class MallardDuck extends Duck {
 
     public MallardDuck()
