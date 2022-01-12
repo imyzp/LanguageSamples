@@ -1,6 +1,5 @@
 package com.yzp.design.递归;
 
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -31,8 +30,8 @@ public class RecursionEg1 {
         trees.add(top8);
         list.addAll(trees);
     }
-    @Test
-    public void makeTree(){
+
+    public static void main(String[] args) {
         List<Tree> tree = new ArrayList<>();
 
         // 先设置顶层
@@ -51,10 +50,9 @@ public class RecursionEg1 {
             transformTree(list,tree);
         }
         System.out.println("dsf");
-
     }
 
-    private void transformTree(List<Tree> list, List<Tree> tree) {
+    private static void transformTree(List<Tree> list, List<Tree> tree) {
         Iterator<Tree> iterator = list.iterator();
         while (iterator.hasNext())
         {
