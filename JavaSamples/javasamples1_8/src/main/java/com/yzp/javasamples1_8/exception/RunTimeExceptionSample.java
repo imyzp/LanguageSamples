@@ -1,5 +1,7 @@
 package com.yzp.javasamples1_8.exception;
 
+import org.junit.Assert;
+
 public class RunTimeExceptionSample {
     public static void main(String[] args) {
         System.out.println("异常抛出使用场景");
@@ -13,6 +15,8 @@ public class RunTimeExceptionSample {
     }
 
     static void method1(String number) throws IllegalAccessException {
+        Assert.assertNotNull(null);
+
         int temperature = 0;
 
         try {
