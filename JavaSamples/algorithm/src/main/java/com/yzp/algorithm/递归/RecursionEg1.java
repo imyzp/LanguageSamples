@@ -1,4 +1,4 @@
-package com.yzp.design.递归;
+package com.yzp.algorithm.递归;
 
 
 import java.util.ArrayList;
