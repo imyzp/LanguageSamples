@@ -1,4 +1,4 @@
-package com.yzp.design._1工厂模式.model;
+package com.yzp.design._1工厂模式.简单工厂.model;
 
 /**
  * @ProjectName LanguageSamples
@@ -6,6 +6,6 @@ package com.yzp.design._1工厂模式.model;
  * @Author yaozhenpeng
  * @Time 2022/1/12 23:24
  */
-public class Operation {
-
+public interface Product {
+    void method1();
 }

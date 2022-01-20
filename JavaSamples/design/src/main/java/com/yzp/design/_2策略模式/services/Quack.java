@@ -1,7 +1,7 @@
-package com.yzp.design._02策略模式.services;
+package com.yzp.design._2策略模式.services;
 
 
-import com.yzp.design._02策略模式.interfaces.QuackBehavior;
+import com.yzp.design._2策略模式.interfaces.QuackBehavior;
 
 public class Quack implements QuackBehavior {
     @Override

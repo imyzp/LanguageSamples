@@ -1,8 +1,8 @@
-package com.yzp.design._02策略模式.model;
+package com.yzp.design._2策略模式.model;
 
 
-import com.yzp.design._02策略模式.services.FlyWithWings;
-import com.yzp.design._02策略模式.services.Quack;
+import com.yzp.design._2策略模式.services.FlyWithWings;
+import com.yzp.design._2策略模式.services.Quack;
 
 /**
  * 绿头鸭

@@ -1,4 +1,4 @@
-package com.yzp.design._02策略模式.interfaces;
+package com.yzp.design._2策略模式.interfaces;
 
 /**
  * 可以飞行属性

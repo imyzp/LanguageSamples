@@ -1,8 +1,8 @@
-package com.yzp.design._02策略模式.model;
+package com.yzp.design._2策略模式.model;
 
 
-import com.yzp.design._02策略模式.interfaces.FlyBehavior;
-import com.yzp.design._02策略模式.interfaces.QuackBehavior;
+import com.yzp.design._2策略模式.interfaces.FlyBehavior;
+import com.yzp.design._2策略模式.interfaces.QuackBehavior;
 
 public  abstract class Duck {
 
