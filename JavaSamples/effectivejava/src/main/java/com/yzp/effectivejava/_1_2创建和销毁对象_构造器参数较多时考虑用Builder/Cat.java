@@ -4,7 +4,11 @@ import java.time.LocalDateTime;
 
 /**
  * @ProjectName LanguageSamples
- * @Description TODO
+ * @Description 创建和销毁对象，对象参数较多时考虑用Builder
+ *  随着构造参数的增多，需要实例时构造器就会急速膨胀，此时用Builder可以非常灵活地构建对象，我们当然
+ *  可以用setter来处理，但我们希望有些属性成为final,一旦创建实例就不再改变，如id,这时候就体现了Builder。
+ *
+ *  1、拥有final类型的属性的对象，该字段就是线程安全的。
  * @Author yaozhenpeng
  * @Time 2022/1/27 20:22
  */
@@ -50,15 +54,17 @@ public class Cat {
             this.color = color;
             return this;
         }
-
-        public CatBuilder birthday(LocalDateTime birthday){
-            this.birthday = birthday;
-            return this;
-        }
-
-        public CatBuilder birthday(Integer user_id){
-            this.user_id = user_id;
-            return this;
+        public Cat builder(){
+            if(id == null){
+                throw new IllegalArgumentException("id is null");
+            }
+            if(color == null){
+                throw new IllegalArgumentException("color is null");
+            }
+            if(birthday == null){
+                throw new IllegalArgumentException("birthday is null");
+            }
+            return new Cat(id,name,color,birthday,user_id);
         }
 
     }
