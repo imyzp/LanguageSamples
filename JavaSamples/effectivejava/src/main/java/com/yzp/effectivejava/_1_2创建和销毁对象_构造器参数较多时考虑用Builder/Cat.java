@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
  *  可以用setter来处理，但我们希望有些属性成为final,一旦创建实例就不再改变，如id,这时候就体现了Builder。
  *
  *  1、拥有final类型的属性的对象，该字段就是线程安全的。
+ *  2、在设置值时对公共需要校验的参数，可以统一写在builder里
  * @Author yaozhenpeng
  * @Time 2022/1/27 20:22
  */
