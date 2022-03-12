@@ -1,4 +1,4 @@
-package com.yzp.design.单例模式;
+package com.yzp.design._n1单例模式;
 
 /**
  * 懒汉式
