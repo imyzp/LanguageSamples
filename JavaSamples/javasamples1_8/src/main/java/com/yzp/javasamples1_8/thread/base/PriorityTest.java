@@ -29,11 +29,11 @@ public class PriorityTest implements Runnable{
         thread4.start();
 
         // 超过优先级取值范围报错
-        thread5.setPriority(11);
-        thread5.start();
-
-        thread6.setPriority(-1);
-        thread6.start();
+//        thread5.setPriority(11);
+//        thread5.start();
+//
+//        thread6.setPriority(-1);
+//        thread6.start();
     }
 
     @Override
