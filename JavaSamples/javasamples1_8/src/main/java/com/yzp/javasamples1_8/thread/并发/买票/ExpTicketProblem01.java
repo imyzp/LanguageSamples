@@ -6,6 +6,14 @@ package com.yzp.javasamples1_8.thread.并发.买票;
  */
 public class ExpTicketProblem01 implements Runnable{
     private int ticketNums = 10;
+
+    public static void main(String[] args) {
+        ExpTicketProblem01 expTicket01 = new ExpTicketProblem01();
+        new Thread(expTicket01,"小明").start();
+        new Thread(expTicket01,"老师").start();
+        new Thread(expTicket01,"黄牛党").start();
+    }
+
     @Override
     public void run() {
         while(true){
@@ -23,10 +31,4 @@ public class ExpTicketProblem01 implements Runnable{
         }
     }
 
-    public static void main(String[] args) {
-        ExpTicketProblem01 expTicket01 = new ExpTicketProblem01();
-        new Thread(expTicket01,"小明").start();
-        new Thread(expTicket01,"老师").start();
-        new Thread(expTicket01,"黄牛党").start();
-    }
 }
