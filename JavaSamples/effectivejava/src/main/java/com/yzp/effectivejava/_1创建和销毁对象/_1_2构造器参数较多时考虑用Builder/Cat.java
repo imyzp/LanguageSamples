@@ -1,4 +1,4 @@
-package com.yzp.effectivejava._1_2创建和销毁对象_构造器参数较多时考虑用Builder;
+package com.yzp.effectivejava._1创建和销毁对象._1_2构造器参数较多时考虑用Builder;
 
 import java.time.LocalDateTime;
 

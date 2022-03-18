@@ -1,4 +1,4 @@
-package com.yzp.effectivejava._1_1创建和销毁对象_静态方法代替构造器;
+package com.yzp.effectivejava._1创建和销毁对象._1_1静态方法代替构造器;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -38,6 +38,7 @@ public class Cat {
     private Integer id;
     private String name;
 
+    // 单例模式用 private
     public Cat() {
     }
 
