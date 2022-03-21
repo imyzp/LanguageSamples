@@ -1,6 +1,6 @@
-package com.yzp.javasamples1_8.thread.base.thread_usage;
+package com.yzp.javasamples1_8.thread.base;
 
-public class SynchronizedSample {
+public class _4SynchronizedTest {
     public static void main(String[] args) {
         MyObject object = new MyObject();
 

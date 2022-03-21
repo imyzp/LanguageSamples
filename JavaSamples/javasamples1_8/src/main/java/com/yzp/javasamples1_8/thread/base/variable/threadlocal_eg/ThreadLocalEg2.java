@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.thread_variable.threadlocal_eg;
+package com.yzp.javasamples1_8.thread.base.variable.threadlocal_eg;
 
 /**
  * 主线程设置的变量，控制子线程无法获取,只能取到已经初始化好的值

@@ -1,8 +1,8 @@
-package com.yzp.javasamples1_8.thread.base.thread_usage;
+package com.yzp.javasamples1_8.thread.base;
 
 import java.util.stream.Stream;
 
-public class WaitSample {
+public class _2WaitTest {
     private final static Object lock = new Object();
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.thread_variable.volatile_eg;
+package com.yzp.javasamples1_8.thread.base.variable.volatile_eg;
 
 public class VolatileSample {
     public static void main(String[] args) {

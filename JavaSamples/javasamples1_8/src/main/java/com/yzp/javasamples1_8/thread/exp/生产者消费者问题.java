@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.scene;
+package com.yzp.javasamples1_8.thread.exp;
 
 import org.junit.Test;
 

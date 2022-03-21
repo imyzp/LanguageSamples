@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.scene;
+package com.yzp.javasamples1_8.thread.exp;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -6,6 +6,9 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * todo 什么作用
+ */
 public class SemaphoreSample {
     public static void main(String[] args) {
         // 并发限流

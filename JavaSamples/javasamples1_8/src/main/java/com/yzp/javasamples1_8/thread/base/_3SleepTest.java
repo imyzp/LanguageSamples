@@ -1,8 +1,8 @@
-package com.yzp.javasamples1_8.thread.base.thread_usage;
+package com.yzp.javasamples1_8.thread.base;
 
 import java.util.stream.Stream;
 
-public class SleepSample {
+public class _3SleepTest {
     private final static Object lock = new Object();
 
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class SleepSample {
             @Override
             public void run() {
 //                SleepSample.testSleep();
-                SleepSample.testSleep2();
+                _3SleepTest.testSleep2();
             }
         }.start());
 

@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.thread_variable.threadlocal_eg;
+package com.yzp.javasamples1_8.thread.base.variable.threadlocal_eg;
 
 /**
  * 控制子线程可以获取主线程设置的值，子线程修改值，主线程的值不变
