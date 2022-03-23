@@ -19,7 +19,7 @@ import java.util.concurrent.FutureTask;
  *      call方法有返回值，可以通过get方法获取到返回值后再执行其他业务逻辑
  *
  */
-public class _1ThreadCreateTest {
+public class 创建线程 {
     public static void main(String[] args) throws InterruptedException {
         // 方法一
         Thread myThread = new MyThread();

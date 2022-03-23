@@ -6,7 +6,7 @@ package com.yzp.javasamples1_8.thread.base;
  *         设置true表示守护线程。
  *  虚拟机必须等待用户线程执行完毕，不用等待守护线程执行完，用户线程执行完虚拟机停止，守护线程随着虚拟机停止而停止
  */
-public class DaemonTest {
+public class 守护线程 {
     public static void main(String[] args) {
         God god = new God();
         You you = new You();

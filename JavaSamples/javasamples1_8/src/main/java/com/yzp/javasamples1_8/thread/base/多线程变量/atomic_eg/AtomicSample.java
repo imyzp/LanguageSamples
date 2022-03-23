@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.variable.atomic_eg;
+package com.yzp.javasamples1_8.thread.base.多线程变量.atomic_eg;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,11 +1,11 @@
 package com.yzp.javasamples1_8.thread.base;
 
 /**
- * 线程礼让：让当前正在执行的线程暂停变成就绪状态，cpu重新调度
+ * 【：让当前正在执行的线程暂停变成就绪状态，cpu重新调度
  */
-public class YieldTest implements Runnable{
+public class 线程礼让 implements Runnable{
     public static void main(String[] args) {
-        YieldTest yieldTest = new YieldTest();
+        线程礼让 yieldTest = new 线程礼让();
 
         new Thread(yieldTest,"a").start();
         new Thread(yieldTest,"b").start();

@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.variable.threadlocal_eg;
+package com.yzp.javasamples1_8.thread.base.多线程变量.threadlocal_eg;
 
 public class ThreadLocalEg4 {
     private static ThreadLocal<String> threadLocal = new InheritableThreadLocal<String>();

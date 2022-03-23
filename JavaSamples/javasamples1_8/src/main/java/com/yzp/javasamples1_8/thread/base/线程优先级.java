@@ -3,11 +3,11 @@ package com.yzp.javasamples1_8.thread.base;
 /**
  * 线程优先级测试
  */
-public class PriorityTest implements Runnable{
+public class 线程优先级 implements Runnable{
     public static void main(String[] args) {
         System.out.println(Thread.currentThread().getName()+"---->"+Thread.currentThread().getPriority());
 
-        PriorityTest priorityTest = new PriorityTest();
+        线程优先级 priorityTest = new 线程优先级();
 
         Thread thread1 = new Thread(priorityTest);
         Thread thread2 = new Thread(priorityTest);

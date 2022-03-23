@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.variable.threadlocal_eg;
+package com.yzp.javasamples1_8.thread.base.多线程变量.threadlocal_eg;
 
 import org.junit.Test;
 

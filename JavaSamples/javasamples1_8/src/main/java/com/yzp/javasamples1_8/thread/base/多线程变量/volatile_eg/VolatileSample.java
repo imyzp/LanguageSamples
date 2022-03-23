@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.variable.volatile_eg;
+package com.yzp.javasamples1_8.thread.base.多线程变量.volatile_eg;
 
 public class VolatileSample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.base.variable.countdownlatch_eg;
+package com.yzp.javasamples1_8.thread.base.多线程变量.countdownlatch_eg;
 
 import java.util.concurrent.CountDownLatch;
 

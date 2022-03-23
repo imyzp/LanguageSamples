@@ -3,7 +3,7 @@ package com.yzp.javasamples1_8.thread.base;
 /**
  * 线程状态测试：Thread.State
  */
-public class StateTest {
+public class 线程状态 {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread(()->{
             for (int i=0;i<5;i++)
