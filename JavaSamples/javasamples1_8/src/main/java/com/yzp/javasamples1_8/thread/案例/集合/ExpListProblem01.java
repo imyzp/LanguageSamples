@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.并发.集合;
+package com.yzp.javasamples1_8.thread.案例.集合;
 
 import java.util.ArrayList;
 import java.util.List;

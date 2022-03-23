@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.并发.生产者消费者;
+package com.yzp.javasamples1_8.thread.案例.生产者消费者;
 
 public class ExpProduceShow02 {
     public static void main(String[] args) {

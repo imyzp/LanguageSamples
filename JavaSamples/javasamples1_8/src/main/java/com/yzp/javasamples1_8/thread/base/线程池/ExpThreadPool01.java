@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.并发.线程池;
+package com.yzp.javasamples1_8.thread.base.线程池;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

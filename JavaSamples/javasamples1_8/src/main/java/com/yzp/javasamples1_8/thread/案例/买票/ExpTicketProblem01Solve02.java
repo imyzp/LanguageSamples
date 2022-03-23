@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.并发.买票;
+package com.yzp.javasamples1_8.thread.案例.买票;
 
 import java.util.concurrent.locks.ReentrantLock;
 

@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.并发.买票;
+package com.yzp.javasamples1_8.thread.案例.买票;
 /**
  * 买火车票
  * 问题：多个线程操作同一资源的情况下，不同人获取到了同一张票，造成数据紊乱

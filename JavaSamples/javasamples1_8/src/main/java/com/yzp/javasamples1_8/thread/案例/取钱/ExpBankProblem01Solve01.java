@@ -1,4 +1,4 @@
-package com.yzp.javasamples1_8.thread.并发.取钱;
+package com.yzp.javasamples1_8.thread.案例.取钱;
 /**
  * 银行取钱
  * 问题：多个人从同一个账户取钱，造成一个账户钱被取成负数
